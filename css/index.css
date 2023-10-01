@@ -1,0 +1,518 @@
+:root{
+    --first-color: rgb(182, 59, 59);
+    --second-color: rgb(209, 192, 192);
+    --ligt-color: white;
+    --bgcolor1: #171a1c;
+    --bgcolor2: #22283a;
+    --black: black;
+    --padig: 8%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--ligt-color);
+}
+a{
+    text-decoration: none;
+}
+h3{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+h4{
+    margin-top: 5px;
+    font-size: 15px; 
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+h5{
+    font-size: 25px;
+    margin-top: var(--padig);
+}
+p{
+    color: var(--second-color);
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-top: var(--padig);
+}
+span{
+    color: var(--first-color);
+}
+
+/* Home secstion */
+.home{
+    width: 100%;
+    height: 625px;
+    background-color: var(--bgcolor1);
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav{
+    padding-top: 55px;
+    padding-left: var(--padig);
+    padding-right: var(--padig);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;    
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--ligt-color);
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color: var(--first-color);
+}
+.Sub{
+    text-decoration: none;
+    background-color: var(--first-color);
+    color: var(--ligt-color);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: solid 3px var(--first-color);  
+    transition: 0.6s;
+}
+.Sub:hover{
+    background-color: var(--bgcolor1);
+    border: solid 3px var(--first-color);    
+}
+.contient{
+    flex-grow: 1;
+    padding-left: var(--padig);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    position: relative;
+    bottom: 70px;
+}
+
+.social{
+    margin-top: 70px;
+}
+.social img{
+    margin-right: 30px;
+    width: 40px;
+    transition: 0.4s;
+}
+.social img:hover{
+    transform: scale(1.2);
+}
+
+
+
+.home .images{ 
+    position: relative;
+    width: 45%;
+    height: 90%;
+}
+
+.home .images img{
+    align-items: center;
+    position: absolute;
+    align-self: flex-end;
+    height: 100%;
+    transition: 1s;
+}
+
+.circle{
+    width: 400px;
+}
+.images .circle:hover{
+    width: 410px;
+}
+.team{
+    width: 400px;
+}
+.images .team:hover{
+    width: 410px;
+}
+
+/* About site section */
+
+.about-site{
+    width: 100%;
+    background-color: var(--bgcolor2);
+    padding: var(--padig);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-site .images{
+    width: 35%;
+}
+.about-site .images img{
+    width: 90%;
+}
+.about-site .text{
+    width: 35%;
+}
+
+
+/* About me section */
+
+.about-me{
+    background-color: var(--bgcolor1);
+    width: 100%;
+    height: 620px;
+}
+
+.about-me h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.me{
+    display: flex;
+}
+.gmail{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: var(--bgcolor2);
+    margin: var(--padig);
+    width: 300px;
+    height: 300px;
+}
+.gmail img{
+    width: 50px;
+    text-align: center;
+    margin-left: 40%;
+}
+.gmail p{
+    line-height: 20px;
+    color: gray;
+    text-align: center;
+}
+.gmail h5{
+    color: var(--first-color);
+    text-align: center;
+    margin-bottom: var(--padig);
+    margin-top: -3px;
+}
+
+.personal{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: var(--bgcolor2);
+    margin: var(--padig);
+    width: 300px;
+    height: 300px;
+}
+.personal img{
+    width: 50px;
+    text-align: center;
+    margin-left: 40%;
+}
+.personal h5{
+    color: var(--first-color);
+    text-align: center;
+    margin-bottom: var(--padig);
+    margin-top: -3px;
+}
+.personal p{
+    
+    line-height: 20px;
+    color: gray;
+    text-align: center;
+}
+
+/* login in section */
+
+.login{
+    background-color: var(--bgcolor2);
+    width: 100%;
+    height: 850px;
+}
+
+.login .log{
+    padding: var(--padig);
+    margin-bottom: 20px;
+}
+.login h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.login .log input{
+    font-size: 20px;
+    background-color: rgb(189, 174, 153);   
+}
+.button{
+    color: gold;
+    width: 70px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.button:hover{
+    color: var(--first-color);
+}
+
+.craet{
+    padding-top: var(--padig);
+}
+
+
+.name{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+.email{
+    width: 503px;
+    height: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+.pass{
+    width: 503px;
+    height: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+.craet select{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(189, 174, 153); 
+    margin-bottom: 5px;
+}
+.craet p{
+    margin: 0px;
+    margin-bottom: 3px;
+}
+.gby{
+    display: inline;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.gb,.ry{
+    cursor: pointer;
+}
+.birthday,.month,.Year{
+    cursor: pointer;
+}
+.save{
+    display: block;
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(189, 174, 153);
+    color: gold;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.save:hover{
+    color: var(--first-color);
+}
+
+/* thanks section */
+
+.thanks{
+    background-color: var(--bgcolor1);
+    text-align: center;
+    
+}
+.thanks h1{
+    padding-top: 20px;
+}
+.thanks p{
+    margin: 0;
+}
+
+/* menu */
+
+#menu{
+    display: none;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+#menu span{
+    display: block;
+    height: 4px;
+    width: 33px;
+    margin-bottom: 5px;
+    background-color: var(--ligt-color);
+    border-radius: 6px;
+    transition: 0.4s;
+
+}
+/* media screen phone */
+
+@media screen and (max-width: 710px) {
+    /* :root{
+        --padding: 4%;
+    } */
+    *{
+        padding: 0px;
+    }
+    html{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 10px;
+    }
+    
+
+    /* home */
+
+    .home{
+        width: 100%;
+    }
+    .home h2{
+        font-size: 25px;
+    }
+    .home ul li a{
+        color: gray;
+    }
+    .home ul{
+        display: none;
+    }
+    .images{
+        display: none;
+    }   
+    .Sub{
+        display: none;
+    }
+    .home li{
+        margin-bottom: 10px;
+    }
+    #menu{
+        display: block;
+    }
+
+    /* about me */
+
+    .text h1{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .text h5{
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 10px;
+    }
+    .me{
+        display: block;
+    }
+    .gmail{
+        padding: 15px;
+        margin: 4%;
+        height: 190px;
+    }
+    .personal {
+        padding: 15px;
+        margin: 4%;
+        height: 190px;
+        margin-top: 75px;
+    }
+
+    /* about site */
+
+    .text p{
+        width: 300px;
+        margin-left: -107px;
+    }
+    .text h5{
+        margin-left: -107px;
+    }
+    .about-site{
+        padding: 4%;
+    }
+    .text{
+        padding-top: 30px;
+    }
+
+    /* log */
+
+    .login{
+        height: 600px;
+    }
+    .login .log input{
+        font-size: 10px;
+    }
+    .button{
+        width: 40px;
+        margin-top: 10px;
+    }
+    .name{
+        width: 135px;
+        height: 20px;
+    }
+    .email,.pass{
+        width: 280px;
+        height: 20px;
+    }
+    .craet select {
+        width: 55px;
+        height: 20px;
+    }
+    .save{
+        width: 50px;
+        height: 25px;
+    }
+}
+
+/* media screen tablet */
+
+@media screen and (min-width: 711px) and (max-width: 979px) {
+
+    /* home */
+
+    .images{
+        margin-right: 50px;
+    }
+    .circle,.team{
+        width: 287px;
+    }
+    .home ul{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+    .Sub{
+        display: none;
+    }
+
+    /* site */
+
+    .about-site{
+        height: 600px;
+    }
+    .about-site .text{
+        width: 50%;
+    }
+    .text h1{
+        margin-top: 100px;
+    }
+    .images .team:hover{
+        width: 287px;
+    }
+}

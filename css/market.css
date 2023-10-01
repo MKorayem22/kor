@@ -1,0 +1,219 @@
+:root{
+    --first-color: rgb(182, 59, 59);
+    --second-color: rgb(209, 192, 192);
+    --ligt-color: white;
+    --bgcolor1: #171a1c;
+    --bgcolor2: #22283a;
+    --black: black;
+    --padig: 8%;
+}
+ body{
+     background-color: var(--bgcolor1);
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--ligt-color);
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: var(--first-color);
+}
+h1{
+    font-size: 43px;
+}
+.h3{
+    font-size: 20px;
+}
+
+/* title */
+
+
+.title{
+    margin-left: 400px;
+    width: 900px;
+    height: 100px;
+}
+
+.title h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* addetion */
+
+.addetion{
+    display: inline;
+    background-color: var(--bgcolor2);
+    width: 195px;
+    height: 100%;
+    margin-top: -100px;
+    position: fixed;
+}
+.addetion h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.-b{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.add{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.add img{
+    width: 40px;
+    transition: 0.4s;
+}
+.add img:hover{
+    transform: scale(1.2);
+}
+.films{
+    text-align: center;
+}
+.films img{
+    width: 40px;
+    transition: 0.4s;
+}
+.films img:hover{
+    transform: scale(1.2);
+}
+.addetion h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.addetion h3 a{
+    color: var(--ligt-color);
+    transition: 0.4s;
+}
+.addetion h3 a:hover{
+    color: var(--first-color);
+}
+
+
+
+/* div */
+
+.div{
+    float: left;
+    margin: 10px;
+    margin-bottom: 50PX;
+}
+
+
+
+/* Women */
+
+
+
+.Women h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.Women{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    width: 900px;
+}
+.Women img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+}
+.Women h3{
+    color: var(--ligt-color);
+}
+.Women div{
+    width: 200px;
+    height: 350px;
+    transition: 0.4s;
+}
+.Women div:hover{
+    transform: scale(1.1);
+}
+
+
+/* sport */
+
+
+
+.Sport h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.Sport{
+    margin-top: 1000px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    width: 900px;
+}
+.Sport img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+}
+.Sport h3{
+    color: var(--ligt-color);
+}
+.Sport div{
+    width: 200px;
+    height: 350px;
+    transition: 0.4s;
+}
+.Sport div:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* Men */
+
+
+
+.Men h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.Men{
+    margin-top: 1430px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    width: 900px;
+}
+.Men img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+}
+.Men h3{
+    color: var(--ligt-color);
+}
+.Men div{
+    width: 200px;
+    height: 350px;
+    transition: 0.4s;
+}
+.Men div:hover{
+    transform: scale(1.1);
+}

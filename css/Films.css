@@ -1,0 +1,304 @@
+:root{
+    --first-color: rgb(182, 59, 59);
+    --second-color: rgb(209, 192, 192);
+    --ligt-color: white;
+    --bgcolor1: #171a1c;
+    --bgcolor2: #22283a;
+    --black: black;
+    --padig: 8%;
+}
+ body{
+     background-color: var(--bgcolor1);
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--ligt-color);
+}
+a{
+    text-decoration: none;
+}
+span{
+    color: var(--first-color);
+}
+h1{
+    font-size: 43px;
+}
+.h3{
+    font-size: 20px;
+}
+
+/* title */
+
+
+.title{
+    margin-left: 400px;
+    width: 900px;
+    height: 100px;
+}
+
+.title h1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* addetion */
+
+.addetion{
+    display: inline;
+    background-color: var(--bgcolor2);
+    width: 195px;
+    height: 100%;
+    margin-top: -100px;
+    position: fixed;
+}
+.addetion h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.-b{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.add{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.add img{
+    width: 40px;
+    transition: 0.4s;
+}
+.add img:hover{
+    transform: scale(1.2);
+}
+.films{
+    text-align: center;
+}
+.films img{
+    width: 40px;
+    transition: 0.4s;
+}
+.films img:hover{
+    transform: scale(1.2);
+}
+.addetion h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.addetion h3 a{
+    color: var(--ligt-color);
+    transition: 0.4s;
+}
+.addetion h3 a:hover{
+    color: var(--first-color);
+}
+
+/* All-Film */
+
+.all-films h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.all-films{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.all-films img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.all-films img:hover{
+    transform: scale(1.1);
+}
+
+
+/* action */
+
+
+.action h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.action{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.action img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.action img:hover{
+    transform: scale(1.1);
+}
+
+/* Anime */
+
+
+.Anime h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.Anime{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.Anime img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.Anime img:hover{
+    transform: scale(1.1)
+}
+
+
+/* Anime */
+
+.desny{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.desny h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.desny img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.desny img:hover{
+    transform: scale(1.1)
+}
+
+/* comedy */
+
+.comedy{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.comedy h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.comedy img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.comedy img:hover{
+    transform: scale(1.1)
+}
+
+/* scare */
+
+.scare{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.scare h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.scare img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.scare img:hover{
+    transform: scale(1.1)
+}
+
+/* adventures */
+
+.adventures{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.adventures h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.adventures img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.adventures img:hover{
+    transform: scale(1.1)
+}
+/* Drama */
+.Drama{
+    margin-top: 100px;
+    margin-left: 400px;
+    width: 900px;
+}
+.Drama h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.Drama img{
+    width: 200px;
+    height: 350px;
+    margin-right: 15px;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 10px #ffffff36;
+    transition: 0.4s;
+}
+.Drama img:hover{
+    transform: scale(1.1)
+}
